@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Kocaeli</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Kocaeli</a>
+   
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Hakkında</a>
+      <a href="#menu" class="w3-bar-item w3-button">Genel bilgiler</a>
+      <a href="#contact" class="w3-bar-item w3-button">iletişim</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="bfoto1.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">KOCAELİ</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="foto.webp" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Kocaeli hakkında</h1><br>
+      <h5 class="w3-center">kuruluş yılı 1924</h5>
+      <p class="w3-large">Kocaeli; Asya ve Avrupa’yı birbirine bağlayan yolların kavşağında bulunan Marmara Denizi’nin ve Marmara Bölgesi’nin doğusunda yer alan bir İl’dir. Kuzeyde Karadeniz, doğuda ve güneydoğuda Sakarya, güneyde Bursa batıda Yalova ve İstanbul illeri yer almaktadır. 1’i Büyükşehir Belediyesi ve İzmit, Derince, Körfez, Gebze, Gölcük, Karamürsel, Kandıra,  Başiskele, Kartepe, Çayırova, Darıca, Dilovası 12 İlçe Belediyesi olmak üzere toplam 13 Belediyesi bulunmaktadır.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">İlkçağlardan itibaren yerleşim için cazibe teşkil eden Kocaeli 1924 yılında vilayet olmuştur. Türkiye’nin en küçük 6. il’i olan Kocaeli’nin yüzölçümü 3,623 km2’dir.Kara, demir, deniz ve hava yolu  ulaşımları ile Türkiye’nin önemli geçiş noktalarından biridir.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Genel bilgiler</h1><br>
+      <h4>Yüz ölçümü</h4>
+      <p class="w3-text-grey">3.623 km²</p><br>
+    
+      <h4>Nüfus</h4>
+      <p class="w3-text-grey">1.953.035</p><br>
+    
+      <h4>Plaka</h4>
+      <p class="w3-text-grey">41</p><br>
+    
+      <h4>Coğrafi konum</h4>
+      <p class="w3-text-grey"> 29° 22'—30° 21' doğu boylamı, 40° 31'—41° 13' kuzey enlemi</p><br>
+    
+      <h4>İlçeleri</h4>
+      <p class="w3-text-grey">Başiskele,Çayırova,Darıca,Derince,Dilovası,Gebze,Gölcük <br> İzmit,Kandıra,Karamürsel,Kartepe,Körfez</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="ufoto.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>iletişim</h1><br>
+    
+  
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Ad soyad" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="Yaş" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="date"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mesajınız" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">Mesaj gönder</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
